@@ -58,4 +58,9 @@
 .btn:hover{
     box-shadow: 1px 3px 15px blue;
     background-color: rgb(82, 82, 245);
-    transition: all ease-in-out 0.10s
+    transition: all ease-in-out 0.10s;
+}
+/* .start-clicked{
+    background-color: rgb(110, 110, 145);
+    
+} */
