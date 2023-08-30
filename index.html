@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Watch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- main container -->
+    <main class="main">
+        <div class="main-container">
+            <!-- watch disply -->
+            <div class="disply">
+                <h3 class="watch-title">DIgital Watch</h3>
+                <h1  class="timer"><span id="watch-timer">0</span>Sec</h1>
+            </div>
+            <!-- button -->
+            <div class="watch-btns">
+                <button onclick="startWatch()" class="btn">Start</button>
+                <button onclick="stopWatch()" class="btn">Stop</button>
+                <button onclick="clearWatch()" class="btn">Clear</button>
+            </div>
+        </div>
+    </main>
+    <script src="watch.js"></script>
+</body>
+</html>
